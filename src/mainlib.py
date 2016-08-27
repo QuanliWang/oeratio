@@ -2,7 +2,7 @@
 
 """
 Purpose:  Main library for scripts.
-Author:   Ayal Gussow
+Author:   Ayal Gussow, Quanli Wang
 """
 
 ### Imports --------------------------------------------------------------------
@@ -10,7 +10,7 @@ import sys
 import argparse
 import logging
 import datetime
-from OrionGlobals import CustomFormatter
+from oeratioGlobals import CustomFormatter
 
 ### Constants ------------------------------------------------------------------
 LOG_LEVEL = logging.INFO
