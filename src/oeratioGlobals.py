@@ -29,7 +29,7 @@ def get_vcf_fields_dict(line):
     """return a dict of the values of a VCF line
     """
     fields = line.strip().split("\t")
-    return dict((key, fields[value]) for key, value in vcf_columns.iteritems())
+    return dict((key, fields[value]) for key, value in vcf_columns.items())
 
 class CustomFormatter(argparse.ArgumentDefaultsHelpFormatter,
                       argparse.RawDescriptionHelpFormatter):
