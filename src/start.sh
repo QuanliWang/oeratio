@@ -10,4 +10,5 @@ aws s3 cp ../data/anno_domain_anno_exons_position.vcf s3://bdt-quanli-bucket/
 
 cat fun_anno_domain_anno_exons_position.vcf | cut -f8 | sort |uniq
 
+sort fun_anno_domain_anno_exons_position.vcf > sorted_fun_anno_domain_anno_exons_position.vcf 
 
