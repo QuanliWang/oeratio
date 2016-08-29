@@ -4,7 +4,6 @@
 Purpose: Convert RGN file to BED file.
 Input:   RGN file.
 Output:  BED file.
-Author:  Ayal Gussow
 """
 
 ### Imports --------------------------------------------------------------------
