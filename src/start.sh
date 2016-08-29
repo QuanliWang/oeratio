@@ -7,3 +7,7 @@ java -Xmx16g -jar /home/ec2-user/snpeff/snpEff/snpEff.jar GRCh37.75 ../data/doma
 python extract_functional.py -v ../data/anno_domain_anno_exons_position.vcf -o ../data/fun_anno_domain_anno_exons_position.vcf
 
 aws s3 cp ../data/anno_domain_anno_exons_position.vcf s3://bdt-quanli-bucket/
+
+cat fun_anno_domain_anno_exons_position.vcf | cut -f8 | sort |uniq
+
+
